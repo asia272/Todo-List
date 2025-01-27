@@ -1,0 +1,37 @@
+/* AddBox.css */
+
+/* Center the container */
+
+  /* Style for the input field */
+  .MuiTextField-root {
+    width: 100%; /* Make the input field span the entire container */
+    max-width: 350px;
+  }
+  
+  /* Style the button */
+  .MuiButton-root {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 350px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Change button color when hovered */
+  .MuiButton-root:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+  }
+  
+  /* Disabled button styles */
+  .MuiButton-root:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+  }
+  
+  /* Add some margin to the bottom of the button */
+  .MuiButton-root + .MuiButton-root {
+    margin-top: 10px;
+  }
+  

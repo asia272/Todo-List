@@ -1,0 +1,118 @@
+/* Container Styling */
+.table-container {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .table-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Table Styling */
+  .todo-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .todo-table thead {
+    background: linear-gradient(to right, #1187cb, #fcca25bb);
+    color: white;
+  }
+  
+  .todo-table th,
+  .todo-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .todo-table th {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .todo-table tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-table tbody tr:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .todo-table .done {
+    background-color: #e7f8e9;
+  }
+  
+  /* Button Styling */
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Mark Button */
+  .mark-button {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mark-button.done-btn{
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .mark-button.pending-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .mark-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Delete Button */
+  .delete-button {
+    background-color: #e53935;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+  }
+/* Update Button */
+.update-btn{
+  font-size: 17px;
+  background-color: #4caf50;
+  color: white;
+}
+.update-btn:hover{
+  transform: scale(1.05);
+}
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .todo-table th,
+    .todo-table td {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .table-title {
+      font-size: 20px;
+    }
+  }
+  
